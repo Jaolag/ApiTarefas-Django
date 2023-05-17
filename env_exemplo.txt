@@ -1,6 +1,15 @@
-# DATABASE POSTGRES
-DB_NAME='ApiTarefas'
-DB_HOST='localhost'
-DB_PORT=5432
-DB_USER='postgres'
-DB_PASSWORD='postgres'
+# DATABASE POSTGRES LOCAL
+#DB_NAME='ApiTarefas'
+#DB_HOST='localhost'
+#DB_PORT=5432
+#DB_USER='postgres'
+#DB_PASSWORD='postgres'
+
+
+#DB POSTGRES ONLINE RENDER
+
+#DB_NAME='apitarefas_9c2f'
+#DB_HOST='dpg-chi4q33hp8u7g2dr90qg-a.oregon-postgres.render.com'
+#DB_PORT=5432
+#DB_USER='apitarefas'
+#DB_PASSWORD='3GqQPEFH4kQOiuJ0MLfUlaocP3knJ2tj'
