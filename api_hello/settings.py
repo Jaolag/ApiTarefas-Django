@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-j2n&0$0^e(r@nz@8cemqgng9pebc6*wu2j=p$=t-_f!6nt4a!9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['apitarefas.onrender.com', 'localhost', '127.0.0.1', '44.226.145.213', '54.187.200.255', '44.229.200.200']
+ALLOWED_HOSTS = ['apitarefas.onrender.com', 'https://heartfelt-gumdrop-553ee6.netlify.app' ,'localhost', '127.0.0.1', '44.226.145.213', '54.187.200.255', '44.229.200.200']
 
 
 
