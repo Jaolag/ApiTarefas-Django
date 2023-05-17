@@ -89,17 +89,26 @@ WSGI_APPLICATION = 'api_hello.wsgi.application'
 
 from decouple import config
 
+#DATABASES = {
+#    "default": {
+#        "ENGINE": "django.db.backends.postgresql",
+#        "HOST": config('DB_HOST'),
+#        "PORT": config('DB_PORT'),
+#        "NAME": config('DB_NAME'),
+#        "USER": config('DB_USER'),
+#        "PASSWORD": config('DB_PASSWORD'),
+#    }
+#}
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "HOST": config('DB_HOST'),
-        "PORT": config('DB_PORT'),
-        "NAME": config('DB_NAME'),
-        "USER": config('DB_USER'),
-        "PASSWORD": config('DB_PASSWORD'),
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'apitarefas_9c2f',
+        'USER': 'apitarefas',
+        'PASSWORD': '3GqQPEFH4kQOiuJ0MLfUlaocP3knJ2tj',
+        'HOST': 'dpg-chi4q33hp8u7g2dr90qg-a.oregon-postgres.render.com',
+        'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
