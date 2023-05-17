@@ -17,5 +17,5 @@ sqlparse==0.4.4
 tzdata==2023.3
 urllib3==2.0.2
 django-cors-headers==3.10.0
-corsheaders==3.10.1
+corsheaders==3.1.1
 
